@@ -1,0 +1,211 @@
+* { /* o "*" representa tudo */
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(182, 182, 182);
+}
+
+.box {
+    background: white;
+    width: 70rem;
+    margin: 40px auto;
+    padding: 20px;
+    border-radius: 6px;
+}
+
+.title-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title-row h2 {
+    letter-spacing: 1.7;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 28px;
+
+}
+
+.title-row .week {
+    background: black;
+    color: white;
+    border: #eee 1px solid;
+    padding-top: 4px;
+    padding-left: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    float: right;
+    float: top;
+
+
+}
+
+.week:hover {
+    background: rgb(182, 182, 182);
+}
+
+
+.title-row .month {
+    background: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: #eee 1px solid;
+    padding-top: 4px;
+    padding-left: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 5px;
+    float: right;
+    float: top;
+}
+
+.month:hover {
+    background: rgb(182, 182, 182);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px auto auto auto auto auto auto;
+  grid-template-rows: 50px 100px 100px 100px;
+  grid-gap: 5px;
+  /*background-color: #2196F3;*/
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 18px;
+}
+
+
+.Details {
+    align-self: center;
+    justify-self: center;
+    
+}
+
+.Details a {
+    background: rgb(0, 119, 255);
+    color: white;
+    border: rgb(0, 119, 255) 1px solid;
+    padding: 4px 8px;
+    font-weight: bold;
+    font-size: 19px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+.Details a:hover {
+    background: rgb(0, 84, 180);
+    box-shadow: 3px 3px 3px rgb(1, 73, 155);
+}
+
+.Id {
+    font-size: 19px;
+    font-weight: bold;
+    align-self: center;
+    
+
+}
+.Picture {
+    align-self: center;
+    justify-self: center;
+    vertical-align: middle;
+}
+
+.Picture img {
+    border-radius: 50%;
+}
+
+.Name {
+    font-size: 13px;
+    text-transform: uppercase;
+    align-self: center;
+}
+
+.City {
+    align-self: center;
+    font-weight: bold;
+}
+
+.Sales {
+    align-self: center;
+    justify-self: center;
+    
+}
+.Status1 {
+    background: rgb(212, 5, 5);
+    border-radius: 17px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 17px;
+    align-self: center;
+    justify-self: center;
+    
+}
+
+.Status2 {
+    background: rgb(79, 204, 79);
+    border-radius: 17px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 2px 8px;
+    text-transform: uppercase;
+    font-size: 17px;
+    align-self: center;
+    justify-self: center;
+}
+
+.Status3 {
+    background: rgb(238, 177, 11);
+    border-radius: 17px;
+    color: black;
+    font-weight: bold;
+    padding: 3px 9px;
+    text-transform: uppercase;
+    font-size: 17px;
+    align-self: center;
+    justify-self: center;
+}
+
+.id_menu {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.name_menu {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.city_menu {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.sales_menu {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.status_menu {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.actions_menu {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
